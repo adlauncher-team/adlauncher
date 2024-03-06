@@ -1,0 +1,3 @@
+[submodule "adlauncher-terminal"]
+	path = adlauncher-terminal
+	url = https://github.com/adlauncher-team/adlauncher-terminal.git
