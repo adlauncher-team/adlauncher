@@ -1,46 +1,46 @@
 # ADLAUNCHER | MINECRAFT LAUNCHER WITH ELECTRON AND ADLAUNCHER-CORE
 
-ADLauncher es un launcher de minecraft con interfaz gráfica creada con electron y ADLauncher-core.
+ADLauncher is a Minecraft launcher with a graphical interface created using Electron and ADLauncher-core.
 
-Este proyecto ha sido llevado a cabo con el objetivo de proporcionar una manera de jugar Minecraft de manerda gratuita sin usar lanzadores que puedan contener virus en su sistema.
+This project has been carried out with the aim of providing a way to play Minecraft for free without using launchers that may contain viruses in your system.
 
-Esta es la primera versión del lanzador y se irá actualizando con el tiempo, agregando nuevas funciones, corrigiendo errores y aceptando sugerencias de la comunidad.
+This is the first version of the launcher and it will be updated over time, adding new features, fixing bugs, and accepting community suggestions.
 
-Su forma de uso es sencilla y la interfaz está creada de forma que pueda ser amigable con todo el público.
+Its usage is simple, and the interface is designed to be user-friendly for all audiences.
 
-Recuerda que no apoyamos la piratería de los videojuegos. Apoya a sus creadores originales y cuando puedas, compra el videojuego original sin pensarlo dos veces.
+Remember that we do not support video game piracy. Support their original creators and whenever you can, purchase the original video game without a second thought.
 
 ---
 
 ## Usage
 
-### Instalación
+### Installation
 
-Para descargar el launcher, entra a [Descargas](https://github.com/dani-adbg/adlauncher/releases) y escoge el archivo que necesites.
+To download the launcher, go to [Downloads](https://github.com/dani-adbg/adlauncher/releases) and choose the file you need.
 
-Si no quieres usar el instalador, usar el `.zip` y extráelo donde quieras.
+If you don't want to use the installer, download the `.zip` file and extract it wherever you want.
 
-Si el programa no encuentra `Java` lo descargará automáticamente al iniciar por primera vez.
+If the program doesn't find `Java`, it will download it automatically when started for the first time.
 
-### Descargar Versión
+### Download Version
 
-Busca la pestaña `Descargar Versión` y escribe la versión que quieras descargar.
+Navigate to the `Download Version` tab and type in the version you want to download.
 
-### Jugar
+### Play
 
-Para jugar solamente dale al botón `Play`, se minimizará el programa y se ejecutará la versión de Minecraft que hayas seleccionado.
+To play, simply click the `Play` button. The program will minimize, and the selected version of Minecraft will start running.
 
-### Cambiar configuraciones
+### Change Settings
 
-Puedes ir a la pestaña `Settings` para cambiar ciertos ajustes, como la carpeta de Minecraft que se usará y la Memoria RAM que se estará usando (recuerda no seleccionar valores no válidos).
+You can go to the `Settings` tab to change certain settings, such as the Minecraft folder to be used and the amount of RAM to be allocated (remember not to select invalid values).
 
-Y pulsa el botón para guardar las configuraciones.
+Then, click the button to save the settings.
 
 ---
 
 ## Support
 
-Si necesitas ayuda, tienes alguna sugerencia o encontraste un error, accede a nuestro Discord y dínoslo de inmediato.
+If you need help, have any suggestions, or found a bug, join our Discord and let us know immediately.
 
 [![Discord](https://dcbadge.vercel.app/api/server/a93w5NpBR9)](https://discord.gg/a93w5NpBR9)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@dani_adbg)
