@@ -1,0 +1,99 @@
+.settings {
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 7vh;
+  max-width: 80%;
+}
+
+.boxlabel {
+  margin: 2vh 0;
+}
+
+.box {
+  border: 1px solid #DFE0E1;
+  height: 7vh;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+}
+
+.rootbox {
+  padding-left: 2vh;
+  align-items: center;
+}
+
+.memoriesboxex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memorybox {
+  width: 25vh;
+  margin: 0 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.savesettings {
+  width: 100%;
+  text-align: center;
+}
+
+#save {
+  height: 7vh;
+  width: 15vh;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  background-color: #4CAF50;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Agregamos una transición para la transformación */
+}
+
+#save:hover {
+  background-color: #3eb63e; /* Cambiamos el color de fondo al pasar el cursor */
+  transform: scale(1.1); /* Cambiamos el tamaño al 110% al pasar el cursor */
+}
+
+#download-version, #create-user {
+  display: none;
+}
+
+.listbox {
+  padding-left: 2vh;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2vh;
+}
+
+.selector {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.users-list, .versions {
+  background-color: #161a1e;
+  border-radius: 15px;
+  position: absolute;
+  width: 90vh;
+  padding: 1vh 0;
+  max-height: 40vh;
+  overflow: auto;
+}
+
+.settings-name, .version {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2vh;
+  margin: 1vh 0;
+}
+
+.delete {
+  cursor: pointer;
+  background-color: red;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 5px;
+  text-align: center;
+}

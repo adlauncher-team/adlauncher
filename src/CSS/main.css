@@ -1,0 +1,173 @@
+/* BACKGROUND PICTURE 1 */
+.img {
+  max-width: 100%;
+  height: 60vh;
+}
+/* END */
+
+/* BACKGROUND PICTURE 2 */
+#img {
+  width: 100%;
+  height: 60vh;
+  padding: 0 1vh;
+}
+/* END */
+
+/* MAIN BAR */
+.main-bar {
+  background-color: #161a1e;
+  height: 10vh;
+  margin: -1vh 1vh 0 1vh;
+  padding: 1vh 2vh 0 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* END */
+
+/* VERSION SELECT */
+.version-selector {
+  margin-left: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.version-selector, .version-img, #version-text, #version-selector {
+  cursor: pointer;
+}
+
+#version-selector {
+  transition: transform 0.5s ease;
+}
+
+.versions {
+  background-color: #161a1e;
+  max-height: 80vh;
+  padding: 0 2vh;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+}
+
+#version-text {
+  margin: 0 1vh;
+}
+
+.version {
+  margin: 1vh 0;
+}
+
+.version:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+/* END */
+
+/* PLAY BUTTON */
+#play {
+  position: relative;
+  overflow: hidden;
+  height: 7vh;
+  width: 15vh;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#play::before {
+  content: 'Play';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+}
+
+#play::after {
+  content: 'Click to Start';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 2vh;
+}
+
+#play:hover::before {
+  opacity: 0;
+}
+
+#play:hover::after {
+  opacity: 1;
+}
+
+#play span {
+  position: relative;
+  z-index: 1;
+}
+
+#play:hover span {
+  animation: jitter 0.4s ease infinite alternate;
+}
+
+@keyframes jitter {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(3px);
+  }
+}
+
+#play:active::before {
+  background-color: #1B5E20;
+}
+
+#play:active::after {
+  opacity: 0;
+}
+/* END */
+
+/* DOWNLOAD BAR */
+.download-bar {
+  position: absolute;
+  bottom: 5vh;
+  width: 80%;
+  padding: 0 1vh;
+  height: 6vh;
+  display: flex;
+}
+
+.mini-bar {
+  background-color: #45a049;
+  height: 100%;
+  width: calc(100% / 10);
+  /* border: 1px #000 solid; */
+}
+
+#download-percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* VERSION IMG */
+.version-img {
+  height: 5vh;
+  width: 5vh;
+}
+
+.hidden {
+  display: none;
+}

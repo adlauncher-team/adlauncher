@@ -1,0 +1,150 @@
+/* UNIVERSAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #DFE0E1;
+  font-family: "Anta", sans-serif;
+  cursor: default;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #222831;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 20% repeat(2, 1fr);
+  grid-template-rows: 10% repeat(3, auto);
+}
+
+#nav {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+#nav-title {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+#nav:hover #nav-title {
+  transform: scale(1.05); 
+  opacity: 0.8; 
+}
+
+#side-bar {
+  background-color: #393E46;
+  grid-column: 1;
+  grid-row: 1 / span 4;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  font-size: 3vh;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.52, 1.275);
+}
+
+#profile {
+  height: 7vh;
+  width: 7vh;
+  border-radius: 50%;
+}
+
+#profile-user, #profile {
+  cursor: pointer;
+}
+
+.users {
+  background-color: #161a1e;
+  max-height: 25vh;
+  padding: 0 2vh;
+  border-radius: 15px;
+  position: absolute;
+  left: 2.5vh;
+  top: 10vh;
+  width: 23vh;
+}
+
+.name {
+  margin: 1vh 0;
+}
+
+.name:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.side-bar-options {
+  margin-top: 6vh;
+  margin-left: 3vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vh;
+}
+
+.side-bar-options > span {
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.side-bar-options > span:hover {
+  color: #FFD369;
+  transform: translateY(-3px);
+}
+
+
+.side-bar-footer {
+  margin: 5vh 0;
+  text-align: center;
+}
+
+.main {
+  grid-column: 2 / 4;
+  grid-row: 2 / 5;
+}
+
+/* Hover Animations */
+.profile:hover {
+  transform: scale(1.1) rotate(5deg);
+  cursor: pointer;
+}
+
+.side-bar-options > span:hover {
+  color: #FFD369;
+  transform: translateY(-3px);
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width:5px;
+}
+
+/* No sé qué hace, pero si lo dejo así, se mantiene la scrollbar como me gusta */
+::-webkit-scrollbar-button:increment,::-webkit-scrollbar-button {
+} 
+::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+
+/* CLASE HIDDEN PARA OCULTAR ELEMENTOS */
+.hidden {
+  display: none;
+}
+
+.rotate {
+  transform: rotate(-180deg);
+}
